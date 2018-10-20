@@ -801,6 +801,8 @@
             // 
             this.chkEF.AutoSize = true;
             this.chkEF.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkEF.Checked = true;
+            this.chkEF.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chkEF.Location = new System.Drawing.Point(286, 214);
             this.chkEF.Name = "chkEF";
             this.chkEF.Size = new System.Drawing.Size(39, 17);
@@ -1251,54 +1253,54 @@
             this.checkRecursivelyTablesConnectedToolStripMenuItem,
             this.refreshTableToolStripMenuItem});
             this.contextMenuTable.Name = "contextMenuTable";
-            this.contextMenuTable.Size = new System.Drawing.Size(349, 158);
+            this.contextMenuTable.Size = new System.Drawing.Size(347, 158);
             // 
             // checkTablesConnectedFromToolStripMenuItem
             // 
             this.checkTablesConnectedFromToolStripMenuItem.Name = "checkTablesConnectedFromToolStripMenuItem";
-            this.checkTablesConnectedFromToolStripMenuItem.Size = new System.Drawing.Size(348, 22);
+            this.checkTablesConnectedFromToolStripMenuItem.Size = new System.Drawing.Size(346, 22);
             this.checkTablesConnectedFromToolStripMenuItem.Text = "Check Connected From This Table (FK This -> To)";
             this.checkTablesConnectedFromToolStripMenuItem.Click += new System.EventHandler(this.checkTablesConnectedFromToolStripMenuItem_Click);
             // 
             // checkTablesConnectedToToolStripMenuItem
             // 
             this.checkTablesConnectedToToolStripMenuItem.Name = "checkTablesConnectedToToolStripMenuItem";
-            this.checkTablesConnectedToToolStripMenuItem.Size = new System.Drawing.Size(348, 22);
+            this.checkTablesConnectedToToolStripMenuItem.Size = new System.Drawing.Size(346, 22);
             this.checkTablesConnectedToToolStripMenuItem.Text = "Check Connected To This Table (FK From -> This)";
             this.checkTablesConnectedToToolStripMenuItem.Click += new System.EventHandler(this.checkTablesConnectedToToolStripMenuItem_Click);
             // 
             // checkTablesConnectedToolStripMenuItem
             // 
             this.checkTablesConnectedToolStripMenuItem.Name = "checkTablesConnectedToolStripMenuItem";
-            this.checkTablesConnectedToolStripMenuItem.Size = new System.Drawing.Size(348, 22);
+            this.checkTablesConnectedToolStripMenuItem.Size = new System.Drawing.Size(346, 22);
             this.checkTablesConnectedToolStripMenuItem.Text = "Check Connected From && To This Table";
             this.checkTablesConnectedToolStripMenuItem.Click += new System.EventHandler(this.checkTablesConnectedToolStripMenuItem_Click);
             // 
             // checkRecursivelyTablesConnectedFromToolStripMenuItem
             // 
             this.checkRecursivelyTablesConnectedFromToolStripMenuItem.Name = "checkRecursivelyTablesConnectedFromToolStripMenuItem";
-            this.checkRecursivelyTablesConnectedFromToolStripMenuItem.Size = new System.Drawing.Size(348, 22);
+            this.checkRecursivelyTablesConnectedFromToolStripMenuItem.Size = new System.Drawing.Size(346, 22);
             this.checkRecursivelyTablesConnectedFromToolStripMenuItem.Text = "Check Recursively Connected From This Table";
             this.checkRecursivelyTablesConnectedFromToolStripMenuItem.Click += new System.EventHandler(this.checkRecursivelyTablesConnectedFromToolStripMenuItem_Click);
             // 
             // checkRecursivelyTablesConnectedToToolStripMenuItem
             // 
             this.checkRecursivelyTablesConnectedToToolStripMenuItem.Name = "checkRecursivelyTablesConnectedToToolStripMenuItem";
-            this.checkRecursivelyTablesConnectedToToolStripMenuItem.Size = new System.Drawing.Size(348, 22);
+            this.checkRecursivelyTablesConnectedToToolStripMenuItem.Size = new System.Drawing.Size(346, 22);
             this.checkRecursivelyTablesConnectedToToolStripMenuItem.Text = "Check Recursively Connected To This Table";
             this.checkRecursivelyTablesConnectedToToolStripMenuItem.Click += new System.EventHandler(this.checkRecursivelyTablesConnectedToToolStripMenuItem_Click);
             // 
             // checkRecursivelyTablesConnectedToolStripMenuItem
             // 
             this.checkRecursivelyTablesConnectedToolStripMenuItem.Name = "checkRecursivelyTablesConnectedToolStripMenuItem";
-            this.checkRecursivelyTablesConnectedToolStripMenuItem.Size = new System.Drawing.Size(348, 22);
+            this.checkRecursivelyTablesConnectedToolStripMenuItem.Size = new System.Drawing.Size(346, 22);
             this.checkRecursivelyTablesConnectedToolStripMenuItem.Text = "Check Recursively Connected From && To This Table";
             this.checkRecursivelyTablesConnectedToolStripMenuItem.Click += new System.EventHandler(this.checkRecursivelyTablesConnectedToolStripMenuItem_Click);
             // 
             // refreshTableToolStripMenuItem
             // 
             this.refreshTableToolStripMenuItem.Name = "refreshTableToolStripMenuItem";
-            this.refreshTableToolStripMenuItem.Size = new System.Drawing.Size(348, 22);
+            this.refreshTableToolStripMenuItem.Size = new System.Drawing.Size(346, 22);
             this.refreshTableToolStripMenuItem.Text = "Refresh";
             this.refreshTableToolStripMenuItem.Click += new System.EventHandler(this.refreshToolStripMenuItem_Click);
             // 

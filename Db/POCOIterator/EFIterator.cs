@@ -252,10 +252,10 @@ namespace Db.POCOIterator
                 pocoWriter.WriteString("\"");
                 pocoWriter.WriteString(columnName);
                 pocoWriter.WriteString("\"");
-                pocoWriter.Write(", TypeName = ");
-                pocoWriter.WriteString("\"");
-                pocoWriter.WriteString(dataTypeName);
-                pocoWriter.WriteString("\"");
+                //pocoWriter.Write(", TypeName = ");
+                //pocoWriter.WriteString("\"");
+                //pocoWriter.WriteString(dataTypeName);
+                //pocoWriter.WriteString("\"");
                 pocoWriter.Write(", ");
             }
 
@@ -336,10 +336,10 @@ namespace Db.POCOIterator
             pocoWriter.WriteString("\"");
             pocoWriter.WriteString(columnName);
             pocoWriter.WriteString("\"");
-            pocoWriter.Write(", TypeName = ");
-            pocoWriter.WriteString("\"");
-            pocoWriter.WriteString(dataTypeName);
-            pocoWriter.WriteString("\"");
+            //pocoWriter.Write(", TypeName = ");
+            //pocoWriter.WriteString("\"");
+            //pocoWriter.WriteString(dataTypeName);
+            //pocoWriter.WriteString("\"");
             pocoWriter.WriteLine(")]");
         }
 

@@ -110,6 +110,25 @@ namespace Db.Helpers
             name = name.Replace(" ", string.Empty).Replace('-', '_').Trim();
             if (name.Length > 0 && '0' <= name[0] && name[0] <= '9')
                 name = "_" + name;
+            if (!string.IsNullOrEmpty(name))
+            {
+                var array = name.Split(new char[] { '_' }, StringSplitOptions.RemoveEmptyEntries);
+                string newName = string.Empty;
+                foreach(var item in array)
+                {
+                    newName += ToUpperFirstChar(item);
+                }
+                return newName;
+            }
+            return name;
+        }
+
+        private static string ToUpperFirstChar(string name)
+        {
+            if (!string.IsNullOrEmpty(name))
+            {
+                name = name.First().ToString().ToUpper() + String.Join("", name.Skip(1));
+            }
             return name;
         }
 
